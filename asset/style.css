@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.header{
+  background: #fff;
+display: flex;
+justify-content:space-between;
+padding:15px 60px;
+box-shadow: 0px 0px 8px 8px #f2f2f2;
+
+ 
+}
+
+
+.logo{
+  display: flex;
+ 
+}
+.logotext{
+  margin-left: 50px;
+}
+
+
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #938c8c;
+    font-size: 14px;
+    padding: 0px 20px;
+   
+    display:inline-block;
+  }
+.nav{
+  position: relative;
+}
+  
+ .nav a:before{
+  content: "";
+  position: absolute;
+  background-color: #ff8500;;
+  height: 2px;
+  width: 30px;
+  bottom: 0px;
+  transition: 0.3s;
+  opacity: 0;
+
+}
+.nav a:hover:before{
+  content: "";
+  position: absolute;
+  background-color: #ff8500;;
+  height: 2px;
+  width: 30px;
+  bottom: 0px;
+  transition: 0.3s;
+  opacity: 1;
+
+}
+    
+
+
+.banner{
+  margin: 00px 30px;
+}
+
+/* The hero image */
+.hero {
+  height: 380px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.pattern5{
+position: absolute;
+right: -30px;
+top: -20px;
+}
+.pattern2{
+  position: absolute;
+  right: 0px;
+  bottom: -24px;
+  z-index: 999;
+  right: 110px;
+  }
+
+.img1{
+  z-index: 999;
+ margin-left: 440px;
+position: relative;
+top: 90px;
+}
+
+.hero .start{
+  position: absolute;
+  right: -170px;
+  top: 270px;
+  font-size: 28px;
+  color: #ff8500;
+  font-weight: 700;
+}
+
+.herotext {
+  font-size: 32px;
+  color: #ff8500;
+  font-weight: 700;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+.hero p{
+width:600px;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.8;
+}
+.foot-hero{
+  background-image: url('./img/fotter.svg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  
+  padding:30px 30px;
+}
+
+.foot-hero a{
+  color: #fff;
+    padding: 0px;
+    font-size: 20px;
+}
+.foot-hero .allright{
+  color: #fff;
+}
+.foot-hero .scroll{
+  color: #fff;
+}
+
+.Services h2{
+  font-size: 36px;
+  font-weight: 700;
+  width: max-content;
+  margin: 50px auto;
+}
+.Services .cards{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card1{
+  width: 610px;
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  padding: 30px 0 0px 33px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0px;
+}
+
+.card2{
+  width: 610px;
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  padding: 30px 0 42px 33px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px 0px 0px 20px;
+}
+ .card1 h3{
+  font-size: 26px;
+position: relative;
+ }
+
+ 
+.card1 h3:before{
+  content: "";
+  height: 3px;
+  width: 134px;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  background-color:red;
+}
+ .card1 p{
+font-size: 18px; 
+}
+.card1 h4{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.card2 h3{
+  font-size: 26px;
+position: relative;
+ }
+
+ 
+.card2 h3:before{
+  content: "";
+  height: 3px;
+  width: 145px;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  background-color: #a513ff;
+}
+.card2 p{
+  font-size: 20px;
+}
+
+
+.card1img{
+  display: flex;
+}
+
+.Services2{
+  margin-top: 100px;
+}
+.Services2 .cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  
+}
+
+
+.imgservice1{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+ 
+}
+
+.pattern{
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+  margin-bottom: -400px;
+}
+
+
+
+
+/*sectin service2*/
+
+.card3{
+  width: 610px;
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  padding: 30px 0 0px 33px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0px;
+}
+
+.card4{
+  width: 610px;
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  padding: 30px 0 42px 33px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px 0px 0px 20px;
+}
+ .card3 h3{
+  font-size: 26px;
+position: relative;
+ }
+
+ 
+.card3 h3:before{
+  content: "";
+  height: 3px;
+  width: 134px;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  background-color:#71aa27;
+}
+ .card3 p{
+font-size: 18px; 
+}
+.card3 h4{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.card4 h3{
+  font-size: 26px;
+position: relative;
+ }
+
+ 
+.card4 h3:before{
+  content: "";
+  height: 3px;
+  width: 145px;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  background-color: #1d5edd;
+}
+.card4 p{
+  font-size: 20px;
+}
+
+
+/**/
+.pcontent{
+  color: #ff8500;
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0px 3px 12px 2px #00000059;
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    height: 27px;
+}
+.contentS{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/**/
+.hosting{
+  background-color: #222222;
+  height: 650px;
+  margin-top: 30px;
+  padding-top: 60px;
+  
+}
+
+.cardprice{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0px solid #fff;
+  border-radius: 20px 20px 0px 0px;
+}
+.card1price{
+  position: relative;
+  background-color: #fff;
+    border-radius: 14px;
+    width: 22vw;
+    padding: 43px 0px 20px 25px;
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+.card1price:before{
+
+  position: absolute;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 100%;
+  background-color: #ff8500;
+  border: 0px solid #ff8500;
+  border-radius: 12px 12px 0px 0px;
+}
+
+
+.card1price p{
+  font-size: 18px;
+}
+.card1price h3{
+  font-size: 22px;
+}
+
+.hosting h2
+{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  width: max-content;
+  margin: 50px auto;
+}
+
+.bt1{
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+    padding: 9px 0px;
+    font-size: 20px;
+    color: #ff8500; ;
+    background-color: #fff;
+    border: 2px solid #ff8500; 
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 25px;
+    border-radius: 10px;
+    width: calc(100% - 25px);
+}
+
+
+
+
+.card2price{
+  position: relative;
+  background-color: #fff;
+    border-radius: 14px;
+    width: 22vw;
+    padding: 43px 0px 20px 25px;
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+.card2price:before{
+
+  position: absolute;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 22px;
+  width: 100%;
+  background-color: #a513ff;
+  border: 0px solid #a513ff;
+  border-radius: 12px 12px 0px 0px;
+}
+
+
+.card2price p{
+  font-size: 18px;
+}
+.card2price h3{
+  font-size: 22px;
+}
+
+
+
+.bt2{
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+    padding: 9px 0px;
+    font-size: 20px;
+    color: #a513ff; ;
+    background-color: #fff;
+    border: 2px solid #a513ff; 
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 25px;
+    border-radius: 10px;
+    width: calc(100% - 25px);
+}
+
+
+
+
+
+
+
+.card3price{
+  position: relative;
+  background-color: #fff;
+    border-radius: 14px;
+    width: 22vw;
+    padding: 43px 0px 20px 25px;
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+.card3price:before{
+
+  position: absolute;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 22px;
+  width: 100%;
+  background-color: #71aa27;
+  border: 0px solid #71aa27;
+  border-radius: 12px 12px 0px 0px;
+}
+
+
+.card3price p{
+  font-size: 18px;
+}
+.card3price h3{
+  font-size: 22px;
+}
+
+
+
+.bt3{
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+    padding: 9px 0px;
+    font-size: 20px;
+    color: #71aa27; ;
+    background-color: #fff;
+    border: 2px solid #71aa27; 
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 25px;
+    border-radius: 10px;
+    width: calc(100% - 25px);
+}
+
+
+
+
+
+
+.card4price{
+  position: relative;
+  background-color: #fff;
+    border-radius: 14px;
+    width: 22vw;
+    padding: 43px 0px 20px 25px;
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+.card4price:before{
+
+  position: absolute;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 22px;
+  width: 100%;
+  background-color: #1d5edd;
+  border: 0px solid #1d5edd;
+  border-radius: 12px 12px 0px 0px;
+}
+
+
+.card4price p{
+  font-size: 18px;
+}
+.card3price h3{
+  font-size: 22px;
+}
+
+
+
+.bt4{
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+    padding: 9px 0px;
+    font-size: 20px;
+    color: #1d5edd; ;
+    background-color: #fff;
+    border: 2px solid #1d5edd; 
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 25px;
+    border-radius: 10px;
+    width: calc(100% - 25px);
+}
+
+.hosting .support{
+  color: #fff;
+  font-size: 16px;
+  width: max-content;
+  margin: 20px  auto  ;
+}
+.hosting .support2{
+  color: #fff;
+  font-size: 16px;
+  width: max-content;
+  margin: 0px  auto;
+}
